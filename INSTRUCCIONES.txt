@@ -1,0 +1,4 @@
+1.-Instalar composer
+2.-Pegar en carpeta c/wamp/www/
+3.-Importar shop.sql usando wamp
+4.-Abrir proyecto usando localhost/tienda/

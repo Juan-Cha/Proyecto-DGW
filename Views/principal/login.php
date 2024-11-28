@@ -1,0 +1,47 @@
+<?php include "Views/template/header.php"; ?>
+<section class="shoping-cart spad">
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title mb-5">Registro ó Inicio de Sesion</h5>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="form-structor">
+                            <div class="signup">
+                                <h2 class="form-title" id="signup"><span>or</span>Registrarse</h2>
+                                <div class="form-holder">
+                                    <input type="text" id="nameRegister" class="input" placeholder="Nombre" />
+                                    <input type="email" id="emailRegister" class="input" placeholder="Correo Electronico" />
+                                    <input type="password" id="passwordRegister" class="input" placeholder="Contraseña" />
+                                </div>
+                                <button class="submit-btn bg-white text-dark" id="btnRegister">Registrarse</button>
+                            </div>
+                            <div class="login slide-up">
+                                <div class="center">
+                                    <h2 class="form-title" id="loginForm"><span>ó</span>Inicia Sesion</h2>
+                                    <div class="form-holder mb-3">
+                                        <input type="email" id="email" class="input" placeholder="Correo Electronico" />
+                                        <input type="password" id="password" class="input" placeholder="Contraseña" />
+                                    </div>
+                                    <a href="<?php echo BASE_URL . 'principal/recoverpw'; ?>">Olvidaste tu contraseña?</a>
+                                    <button class="submit-btn" id="btnLogin">Inicio de Sesion</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?php include "Views/template/footer.php"; ?>
+
+<script src="<?php echo BASE_URL; ?>public/admin/js/jquery.min.js"></script>
+<script>
+    const base_url = '<?php echo BASE_URL; ?>';
+</script>
+<script src="<?php echo BASE_URL; ?>public/js/login.js"></script>
+</body>
+
+</html>
